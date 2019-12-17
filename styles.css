@@ -117,7 +117,13 @@ a:focus {
 
 
 a,
-article-body a:hover {
+div.article-style a{
+  color: #000000;
+  text-decoration: none;
+}
+
+a,
+div.article-style a:hover {
   color: #0095eb;
   text-decoration: none;
   transition: color 0.6s ease;
