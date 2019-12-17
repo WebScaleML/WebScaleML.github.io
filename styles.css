@@ -116,14 +116,16 @@ a:focus {
 }
 
 
-a,
-.article-style a{
-  color: #000000;
-  text-decoration: none;
+a.body:link {
+   color: #000000;
+   text-decoration: none;
+}
+a.body:visited {
+   color: #000000;
+   text-decoration: none;
 }
 
-a,
-.article-style a:hover {
+a.body:hover {
   color: #0095eb;
   text-decoration: none;
   transition: color 0.6s ease;
